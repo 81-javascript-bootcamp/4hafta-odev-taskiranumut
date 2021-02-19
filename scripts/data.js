@@ -1,4 +1,5 @@
 let moviesData = [
+    //Çalışmayan image linkleri yerine yerel dosyadan image yolu atandı.
     {
         "title": "The Shawshank Redemption",
         "year": "1994",
@@ -10,14 +11,14 @@ let moviesData = [
         "title": "The Godfather",
         "year": "1972",
         "genre": "Crime",
-        "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2Q2NzQ3ZDUtNWU5OC00Yjc0LThlYmEtNWM3NTFmM2JiY2VhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "image": "../img/theGodfather.jpg",
         "id": 1
     },
     {
         "title": "The Godfather: Part II",
         "year": "1974",
         "genre": "Crime",
-        "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjZiNzIxNTQtNDc5Zi00YWY1LThkMTctMDgzYjY4YjI1YmQyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "image": "../img/theGodfatherPart2.jpg",
         "id": 2
     },
     {
@@ -45,7 +46,7 @@ let moviesData = [
         "title": "The Lord of the Rings: The Return of the King",
         "year": "2003",
         "genre": "Adventure",
-        "image": "https://ia.media-imdb.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+        "image": "../img/theLordOfTheRingsTheReturnOfTheKing.jpg",
         "id": 6
     },
     {
@@ -66,7 +67,7 @@ let moviesData = [
         "title": "Fight Club",
         "year": "1999",
         "genre": "Drama",
-        "image": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzFjMWNhYzQtYTIxNC00ZWQ1LThiOTItNWQyZmMxNDYyMjA5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+        "image": "../img/fightClub.jpg",
         "id": 9
     },
     {
@@ -101,7 +102,7 @@ let moviesData = [
         "title": "The Lord of the Rings: The Two Towers",
         "year": "2002",
         "genre": "Adventure",
-        "image": "https://ia.media-imdb.com/images/M/MV5BMDY0NmI4ZjctN2VhZS00YzExLTkyZGItMTJhOTU5NTg4MDU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "image": "../img/theLordOfTheRingsTheTwoTowars.jpg",
         "id": 14
     },
     {
@@ -115,7 +116,7 @@ let moviesData = [
         "title": "Goodfellas",
         "year": "1990",
         "genre": "Biography",
-        "image": "https://ia.media-imdb.com/images/M/MV5BNThjMzczMjctZmIwOC00NTQ4LWJhZWItZDdhNTk5ZTdiMWFlXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_SX300.jpg",
+        "image": "../img/Goodfellas.jpg",
         "id": 16
     },
     {
@@ -129,7 +130,7 @@ let moviesData = [
         "title": "Seven Samurai",
         "year": "1954",
         "genre": "Adventure",
-        "image": "https://ia.media-imdb.com/images/M/MV5BMTc5MDY1MjU5MF5BMl5BanBnXkFtZTgwNDM2OTE4MzE@._V1_SX300.jpg",
+        "image": "../img/sevenSamurai.jpg",
         "id": 18
     },
     {
